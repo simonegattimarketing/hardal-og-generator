@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body { background: #141020; color: #ffffff; }
+
+.ipt {
+  width: 100%;
+  border-radius: 0.5rem;
+  background: #211B36;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.55rem 0.75rem;
+  color: #ffffff;
+  font-size: 0.9rem;
+  outline: none;
+}
+.ipt:focus { border-color: #A082FF; }
+
+.btn-primary {
+  background: #E1FF82;
+  color: #141020;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.55rem 1rem;
+  font-size: 0.9rem;
+}
+.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.btn-ghost {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.55rem 1rem;
+  font-size: 0.9rem;
+}
